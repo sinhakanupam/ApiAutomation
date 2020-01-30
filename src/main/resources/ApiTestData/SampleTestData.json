@@ -1,0 +1,32 @@
+{
+  "SampleApi.authTest": [
+    {
+      "input": {
+        "URL": "https://reqres.in/api/login",
+        "method": "POST",
+        "payload": "{\"email\":\"eve.holt@reqres.in\",\"password\":\"cityslicka\"}",
+        "parameter":{
+          "email": "eve.holt@reqres.in",
+          "password": "cityslicka"
+        }
+      },
+      "output": {
+        "statusCode": "200",
+        "response": ""
+      }
+    }
+  ],
+  "SampleApi.usertest": [
+    {
+      "input": {
+        "URL": "",
+        "method": "POST",
+        "payload": ""
+      },
+      "output": {
+        "statusCode": "200",
+        "response": ""
+      }
+    }
+  ]
+}
